@@ -1,0 +1,41 @@
+body{
+    background-image: url("../img/gradiente.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+  }
+
+.caixa{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#exibir-post{
+    background-color: white;
+    width: 60%;
+    border-radius: 10px;
+    padding: 10px 10px 10px 20px;
+}
+
+#exibir-comentario{
+    background-color: white;
+    width: 60%;
+    min-height: 10px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 20px;
+}
+
+#btn-voltar{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: blue;
+    color: white;
+}
